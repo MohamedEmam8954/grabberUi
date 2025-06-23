@@ -1,0 +1,48 @@
+name: grabber
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  carousel_slider: ^5.1.1
+  cupertino_icons: ^1.0.8
+  equatable: ^2.0.7
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/category/
+    - assets/images/fruits/
+    - assets/images/icons/
+    - assets/images/slider/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/core/utils/
+  filename: assets.dart
+  field_prefix: null
