@@ -50,9 +50,9 @@ class Assets {
   /// assets/images/icons/star.svg
   static const String imagesIconsStar = "assets/images/icons/star.svg";
 
-  /// Assets for imagesReadmeWhatsApp Image 20250623 at 2020561a01e34b
-  /// assets/images/readme/WhatsApp Image 2025-06-23 at 20.20.56_1a01e34b.jpg
-  static const String imagesReadmeWhatsApp Image 20250623 at 2020561a01e34b = "assets/images/readme/WhatsApp Image 2025-06-23 at 20.20.56_1a01e34b.jpg";
+  /// Assets for imagesReadmeReadme
+  /// assets/images/readme/readme.jpg
+  static const String imagesReadmeReadme = "assets/images/readme/readme.jpg";
 
   /// Assets for imagesSliderSlider1
   /// assets/images/slider/Slider1.png
